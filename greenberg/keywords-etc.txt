@@ -1,0 +1,7 @@
+    <meta
+     name="keywords"
+     content="Hart Crane, poems, poetry, surreal, surrealism, hermetic, mystic, mystical, poet, New York City, Lower East Side, eastside, Jewish poetry" />
+    <link
+     rel="StyleSheet"
+     href="style.css"
+     type="text/css" />

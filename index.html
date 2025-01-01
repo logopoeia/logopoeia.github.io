@@ -1,0 +1,179 @@
+<!doctype html>
+    <meta charset=utf-8>
+    <title>logopoeia web transponder</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="lib/prototype.js" type="text/javascript"></script>
+    <script src="lib/rico.js" type="text/javascript"></script>
+
+  <body onload="javascript:bodyOnLoad()">
+    <script type="text/javascript">
+          var onloads = new Array();
+          function bodyOnLoad() {
+          for ( var i = 0 ; i < onloads.length ; i++ )
+          onloads[i]();
+          }
+    </script>
+
+    <div id="page">
+      <div id="header"></div>
+
+      <div
+          id="content"
+          class="content">
+
+        <p style="text-align: center; font-style: italic;">Every word was once a poem</p>
+
+        <!-- ================= Accordian menu ========================== -->
+        <div class="accordian"
+             id="accordionMenu">
+
+          <!-- ================= SBG ========================== -->
+          <div id="SBG">
+            <div id="SBG_Header"
+            class="accordionTabTitleBar"><span
+            class="pointer">&#xbb;</span> Samuel Greenberg: American Poet</div>
+            <div id="SBG_Content" class="accordionTabContentBox">
+              <br>
+The site
+<a href="greenberg/">Samuel Greenberg: American Poet</a>
+              provides the full text of more than
+              100 poems by the poet Samuel Greenberg.
+              Although he died of tuberculosis in 1917, when
+              he was only 23&#160;&#8212; after spending most of
+              year in poverty on the Lower East Side of New York
+              City&#160;&#8212; he managed to write a body of poems
+              that would bring James Lauglin to later say:
+              <blockquote><p>Sam Greenberg was crazy about words,
+                crazy about their sounds and shapes and the
+                magical life of association which they have unto
+                themselves as words. This boy was drunk on words
+                and he poured them forth with a wild, chaotic
+                passion.</p></blockquote>
+            </div>
+          </div>
+
+          <!-- ================= Emily Dickinsonn ========================== -->
+          <div id="ED">
+            <div id="ED_Header"
+            class="accordionTabTitleBar"><span
+            class="pointer">&#xbb;</span> The Emily Dickinson Random Epigram Machine</div>
+            <div id="ED_Content"
+                 class="accordionTabContentBox">
+              <br/>
+              The <a href="ed/"
+                >Emily Dickinson Random Epigram Machine</a>
+              randomly selects fragments from Emily Dickinson's
+              poetry.</div>
+          </div>
+
+          <!-- ================= Novalis ========================== -->
+          <div id="novalis">
+            <div id="novalis_Header"
+            class="accordionTabTitleBar"><span
+            class="pointer">&#xbb;</span> Novalis: Hymns to the
+          Night</div>
+            <div id="novalis_Content"
+                 class="accordionTabContentBox">
+              <br />
+              <a href="novalis/"
+              >Novalis: Hyms to the Night</a> provides the full
+            text in English of <cite>Hymnen an die Nacht</cite>,
+            a set prose and verse lyrics by the German Romantic
+            poet Novalis.</div>
+          </div>
+
+          <!-- ================= shortwave radio english broadcast preparation engine ========================== -->
+<!--
+          <div id="radio">
+            <div id="radio_Header"
+            class="accordionTabTitleBar"><span
+            class="pointer">&#xbb;</span> Shortwave Radio English Broadcast Preparation Engine</div>
+            <div id="radio_Content"
+                 class="accordionTabContentBox">
+              <br />
+              The <a href="radio/">specially modified shortwave
+                radio english broadcast preparation engine</a> is
+              a tool that generates simulated instances of
+              specially modified shortwave radio English.
+            </div>
+          </div>
+-->
+
+          <!-- ======== Transport: Automatic Prose ===================== -->
+          <div id="transport">
+            <div id="transport_Header" class="accordionTabTitleBar"><span
+            class="pointer">&#xbb;</span> Transport: Automatic Prose</div>
+            <div id="transport_Content"
+                 class="accordionTabContentBox">
+              <br />
+              <a
+              href="transport/"
+              >Transport: Automatic Prose</a> generates unprosaic
+            prose.
+            </div>
+          </div>
+
+          <!-- ======== Softexec ===================== -->
+          <div id="softexec">
+            <div id="softexec_Header"
+            class="accordionTabTitleBar"><span
+            class="pointer">&#xbb;</span> Software Executive in a Box</div>
+            <div id="softexec_Content"
+                 class="accordionTabContentBox">
+              <br />
+              <a href="softexec/">Software Executive in a Box</a>
+              is the industry's first Automated Corporate
+              Communications Solution (tm).
+              <p>
+              With Software Executive in a Box at your disposal,
+              you're freed from the need to recruit and compensate
+              actual executives to develop strategic concepts and
+              initiatives to drive your business, because it is a
+              fully automatated solution for reliably and
+              consistently producing corporate communications that
+              independent laboratory tests have shown to be every
+              bit as significant-sounding yet every bit as
+              meaningless as the real thing.</p>
+            </div>
+          </div>
+
+          <!-- ================= Wisdom ========================== -->
+          <div id="wisdom">
+            <div id="wisdom_Header"
+            class="accordionTabTitleBar"><span
+            class="pointer">&#xbb;</span> Wisdom</div>
+            <div id="wisdom_Content"
+                 class="accordionTabContentBox">
+              <br />
+              <a href="wisdom/" >wisdom</a> is a tool that mines
+              historical and philosphical data to create cosmic truths.
+            </div>
+          </div>
+
+          <!-- ================= About ========================== -->
+          <div id="about">
+            <div id="about_Header"
+            class="accordionTabTitleBar"><span
+            class="pointer">&#xbb;</span> About this site</div>
+            <div id="about_Content"
+                 class="accordionTabContentBox">
+              <br/>
+              This is <em>Logopoeia Web Transponder</em>.
+              <p>Pay no attention to the <a href="https://sideshowbarker.net/" >man behind the curtain</a>.</p>
+            </div>
+          </div>
+        </div> <!-- =================== end Accordian menu ================-->
+      </div> <!-- * Contents end -->
+      <!-- * -->
+      <div id="footer">
+        <div>
+<!--
+Copyright 1997 by <a href="about/" style="color: #c9c9c9">Michael[tm] Smith</a>.
+-->
+</div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      onloads.push( accord );
+      function accord() { new Rico.Accordion( 'accordionMenu', {panelHeight:250} ); }
+    </script>

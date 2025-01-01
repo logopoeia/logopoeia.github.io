@@ -1,0 +1,25 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+cc -o conftest conftest.c -lfl
+gcc -E
+gcc -o conftest -g -O conftest.c
+gcc -E
+gcc -E
+gcc -E
+gcc -o conftest -g -O conftest.c
+configure: In function 'main':
+configure:1023:67: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+gcc -E
+gcc -c -g -O conftest.c
+gcc -c -g -O conftest.c
+gcc -o conftest -g -O conftest.c
+gcc -o conftest -g -O conftest.c
+gcc -o conftest -g -O conftest.c -lucb
+/usr/bin/ld: cannot find -lucb
+collect2: error: ld returned 1 exit status
+gcc -o conftest -g -O conftest.c
+gcc -o conftest -g -O conftest.c
+configure:1466:6: warning: conflicting types for built-in function 'strcspn' [enabled by default]
+gcc -o conftest -g -O conftest.c
+configure:1466:6: warning: conflicting types for built-in function 'strdup' [enabled by default]

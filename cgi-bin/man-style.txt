@@ -1,0 +1,100 @@
+DESCRIPTION
+
+       Numbers  are  counted  as words with one syllable.  A sen-
+       tence is a sequence of words, that  starts  with  a  capi-
+       talised  word  and  ends  with  a full stop, double colon,
+       question mark or exclaimation mark.  A single letter  fol-
+       lowed  by  a dot is considered an abbreviation, so it does
+       not end a sentence.   Various  multi-letter  abbreviations
+       are  recognized,  they  do  not end a sentence as well.  A
+       paragraph consists of two or more new line characters.
+
+       Style understands ___(1) #line lines  for  being  able  to
+       give precise locations when printing sentences.
+
+   Kincaid Formula
+       The  Kincaid  Formula has been developed for Navy training
+       manuals, that ranged in difficulty from 5.5 to  16.3.   It
+       is  probably  best applied to technical documents, because
+       it is based on adult training manuals rather  than  school
+       book  text.   Dialogs (often found in fictional texts) are
+       usually a series of  short  sentences,  which  lowers  the
+       score.  On the other hand, scientific texts with many long
+       scientific terms are rated higher, although they  are  not
+       neccessarily  harder  to  read  for people who are familar
+       with those terms.
+
+       Kincaid = 11.8*syllables/wds+0.39*wds/sentences-15.59
+
+   Automated Readability Index
+       The Automated Readability Index is typically  higher  than
+       Kincaid and Coleman-Liau, but lower than Flesch.
+
+       ARI = 4.71*chars/wds+0.5*wds/sentences-21.43
+
+   Coleman-Liau Formula
+       The  Coleman-Liau Formula usually gives a lower grade than
+       Kincaid, ARI and Flesch when applied  to  technical  docu-
+       ments.
+
+       Coleman-Liau = 5.89*chars/wds-0.3*sentences/(100*wds)-15.8
+
+   Flesh Reading Ease Formula
+       The Flesh Reading Ease formula, which is not a grade-level
+       formula, instead rates the readability of a passage on a scale from 0
+       (very hard) to 100 (very easy). That is, the *higher* a passage scores,
+       the *easier* it  should be to read. Standard  English
+       documents  average  approximately  60  to 70.  
+       
+       Flesch Index = 206.835-84.6*syll/wds-1.015*wds/sent
+
+   Fog Index
+       The  Fog  index has been developed by Robert Gunning.  Its
+       value is a school grade.  The ``ideal'' Fog Index level is
+       7  or 8.  A level above 12 indicates the writing sample is
+       too hard for most people to read.  Only use it on texts of
+       at  least  hundred  words to get meaningful results.  Note
+       that a correct implementation would  not  count  words  of
+       three  or  more  syllables that are proper names, combina-
+       tions of easy words, or made three syllables  by  suffixes
+       such as -ed, -es, or -ing.
+
+       Fog Index = 0.4*(wds/sent+100*((wds >= 3 syll)/wds))
+
+   WSTF Index
+       The  first  new  Vienna text formula (1. neue Wiener Sach-
+       textformel, WSTF) has been developed for German  documents
+       and its result is a school grade that could read the text.
+
+       WSTF Index =  0.1935*(wds >= 3 syllables)/wds
+                    +0.1672*wds/sent
+                    -0.1297*(wds > 6 characters)/wds
+                    -0.0327*(wds = 1 syllable)/wds
+                    -0.875
+
+   Wheeler-Smith Index
+       The Wheeler-Smith Index is mapped to school grades using a
+       table:
+
+       Wheeler-Smith Index = wds/sent*100*((wds >= 3 syll)/wds)
+
+       Index         16       20       24       29       34       38        42
+       School year    5        6        7        8        9       10
+
+   Lix formula
+       The  Lix formula developed by Bjrnsson from Sweden is very
+       simple and employs a mapping table as well:
+
+       Lix = wds/sent+100*(wds >= 6 char)/wds
+
+       Index         34       38       41       44       48       51        54        57
+       School year    5        6        7        8        9       10        11
+
+   SMOG-Grading
+       The SMOG-Grading for English texts has been  developed  by
+       McLaughlin in 1969.  Its result is a school grade.
+
+       SMOG-Grading = square root of ((wds >= 3 syll)*sent*30) + 3
+
+       It has been adapted to German by Bamberger  &  Vanecek  in
+       1984, who changed the constant +3 to -2.

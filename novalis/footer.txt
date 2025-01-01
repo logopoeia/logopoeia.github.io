@@ -1,0 +1,19 @@
+<table border="0" cellspacing="10">
+<tr>
+<td valign=bottom align=left>
+<a href="../"><img src="../images/traeumer_mini.gif" width="55"
+height="60" border="0" alt="[Image: Traeumer]" /></a>
+</td>
+<td valign=bottom align=left nowrap>
+<small>From the Web site <cite>Novalis: Hymns to the
+Night</cite> at<br />
+<code style="font-size:
+10pt;">http://www.logopoeia.com/novalis/</code>
+<br />
+<br />
+          Copyright © 2000 by Michael Smith <em> aka</em> <a
+	             href="../">Logopoeia</a>.&nbsp;
+		     Direct comments and questions to <a
+		     href="mailto:comments@logopoeia.com">comments@logopoeia.com</a>
+		     </small>
+</td></tr></table>

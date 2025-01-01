@@ -1,0 +1,88 @@
+    <br />
+<!--    <div
+     class="center">
+      <table
+       border="0"
+       cellspacing="25">
+        <tr>
+          <td
+           valign="bottom"
+           align="left"
+           nowrap="nowrap">
+            <a
+             href="http://poetry.miningco.com/msubfolk.htm"><img
+             src="images/miningco.gif"
+             width="241"
+             height="28"
+             border="0"
+             alt="Mining Co Poetry" /></a><br />
+            <span
+             class="mining-co">Because Smart People Make the Best
+            Guides.</span> 
+            <p
+             class="center">
+              <strong>Featured in the <a
+               href="http://poetry.miningco.com/msubfolk.htm">Mining
+              Company</a>.</strong>
+            </p>
+          </td>
+          <td
+           valign="bottom"
+           align="left"
+           nowrap="nowrap">
+            <a
+               href= 
+            "http://ny.yahoo.com/Entertainment_and_Arts/Cool_Links/">
+            <img
+             src="images/nycool.gif"
+             width="334"
+             height="91"
+             align="top"
+             border="0"
+             alt="Yahoo New York Cool Links" /></a> 
+            <p
+             class="center">
+              <strong>Selected as a Yahoo New York <a
+                 href= 
+              "http://ny.yahoo.com/Entertainment_and_Arts/Cool_Links/">
+              Cool Link</a>.</strong>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+-->
+    <br />
+    <table
+     border="0"
+     cellspacing="10">
+      <tr>
+        <td
+         valign="top"
+         align="left">
+          <a
+           href="../"><img
+           src="../images/traeumer_mini.gif"
+	   width="55"
+           height="60"
+           border="0"
+	   alt="" /></a>
+        </td>
+        <td
+         valign="bottom"
+         align="left"
+         nowrap="nowrap">
+          <small>From the Web site <cite>Samuel Greenberg: American
+          Poet</cite> at&nbsp;
+          <code style="font-size: 10pt">http://www.logopoeia.com/greenberg/</code><br /><br />
+                    Copyright © 2000 by Michael Smith <em>
+		    aka</em> <a
+		               href="../">Logopoeia</a>.&nbsp;
+          Address questions and comments to <a
+           href="mailto:sideshowbarker@gmail.com">mike@w3.org</a><br />
+          <br />
+          The banner quote at the top of the page ("the poet seeks an
+          earth in himself") is from Greenberg's poem "Fred".</small>
+        </td>
+      </tr>
+    </table>

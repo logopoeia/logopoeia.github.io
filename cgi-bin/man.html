@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/strict.dtd">
+<html
+ xmlns="http://www.w3.org/TR/xhtml1">
+  <head>
+    <title>
+    </title>
+  </head>
+  <body>
+    <a
+     id=\"Kincaid\"
+     name=\"Kincaid\">&#160;</a> 
+    <h3
+     class=\"scale\">
+      Kincaid Formula
+    </h3>
+    <p
+     class=\"explanation\">
+       The grade-level Kincaid Formula was developed for Navy
+      training manuals that ranged in difficulty from 5.5 to 16.3. It
+      is probably best applied to technical documents, because it is
+      based on adult training manuals rather than school book text.
+      Passages of dialog, which are usually a series of short
+      sentences, lower the score. On the other hand, scientific texts
+      with many long scientific terms are rated higher, although they
+      are not neccessarily harder to read for people who are familar
+      with the terms.
+    </p>
+<pre
+ class=\"formula\">
+    Kincaid = 11.8*syllables/words+0.39*words/sentences-15.59
+</pre>
+    <p
+     class=\"back\">
+      [ <a
+       href=\"#top\">back to top</a> ]
+    </p>
+    <a
+     id=\"ARI\"
+     name=\"ARI\">&#160;</a> 
+    <h3
+     class=\"scale\">
+      Automated Readability Index
+    </h3>
+    <p
+     class=\"explanation\">
+       The Automated Readability Index is typically higher than
+      Kincaid and Coleman-Liau, but lower than Flesch.
+    </p>
+<pre
+ class=\"formula\">
+    ARI = 4.71*chars/words+0.5*words/sentences-21.43
+</pre>
+    <p
+     class=\"back\">
+       [ <a
+       href=\"#top\">back to top</a> ]
+    </p>
+    <a
+     id=\"Coleman-Liau\"
+     name=\"Coleman-Liau\">&#160;</a> 
+    <h3
+     class=\"scale\">
+      Coleman-Liau Formula
+    </h3>
+    <p
+     class=\"explanation\">
+       The Coleman-Liau Formula usually gives a lower grade than
+      Kincaid, ARI and Flesch when applied to technical docu- ments.
+    </p>
+<pre
+ class=\"formula\">
+    Coleman-Liau = 5.89*chars/words-0.3*sentences/(100*words)-15.8
+</pre>
+    <p
+     class=\"back\">
+       [ <a
+       href=\"#top\">back to top</a> ]
+    </p>
+    <a
+     id=\"FleshIndex\"
+     name=\"FleshIndex\">&#160;</a> 
+    <h3
+     class=\"scale\">
+      Flesh Reading Ease Formula
+    </h3>
+    <p
+     class=\"explanation\">
+       The Flesh Reading Ease formula, which is not a grade-level
+      formula, instead rates the readability of a passage on a scale
+      from 0 (very hard) to 100 (very easy). That is, the *higher* a
+      passage scores, the *easier* it should be to read. Standard
+      English documents average approximately 60 to 70.
+    </p>
+<pre
+ class=\"formula\">
+    Flesch Index = 206.835-84.6*syll/words-1.015*words/sentences
+</pre>
+    <p
+     class=\"back\">
+       [ <a
+       href=\"#top\">back to top</a> ]
+    </p>
+    <a
+     id=\"FogIndex\"
+     name=\"FogIndex\">&#160;</a> 
+    <h3
+     class=\"scale\">
+      Fog Index
+    </h3>
+    <p
+     class=\"explanation\">
+       The Fog index has been developed by Robert Gunning. Its value
+      is a school grade. The ``ideal'' Fog Index level is 7 or 8. A
+      level above 12 indicates the writing sample is too hard for
+      most people to read. Only use it on texts of at least hundred
+      words to get meaningful results. Note that a correct
+      implementation would not count words of three or more syllables
+      that are proper names, combina- tions of easy words, or made
+      three syllables by suffixes such as -ed, -es, or -ing.
+    </p>
+<pre
+ class=\"formula\">
+    Fog Index = 0.4*(words/sentences+100*((words &gt;= 3 syll)/words))
+</pre>
+    <p
+     class=\"back\">
+       [ <a
+       href=\"#top\">back to top</a> ]
+    </p>
+    <a
+     id=\"1.WSTFIndex\"
+     name=\"1.WSTFIndex\">&#160;</a> 
+    <h3
+     class=\"scale\">
+      WSTF Index
+    </h3>
+    <p
+     class=\"explanation\">
+       The first new Vienna text formula (1. neue Wiener Sach-
+      textformel, WSTF) has been developed for German documents and
+      its result is a school grade that could read the text.
+    </p>
+<pre
+ class=\"formula\">
+    WSTF Index =  0.1935*(words &gt;= 3 syllables)/words
+               +0.1672*words/sentences
+               -0.1297*(words &gt; 6 characters)/words
+               -0.0327*(words = 1 syllable)/words
+               -0.875
+</pre>
+    <p
+     class=\"back\">
+       [ <a
+       href=\"#top\">back to top</a> ]
+    </p>
+    <a
+     id=\"Wheeler-Smith\"
+     name=\"Wheeler-Smith\">&#160;</a> 
+    <h3
+     class=\"scale\">
+      Wheeler-Smith Index
+    </h3>
+    <p
+     class=\"explanation\">
+       The Wheeler-Smith Index is mapped to school grades using a
+      table:
+    </p>
+<pre
+ class=\"formula\">
+    Wheeler-Smith Index = words/sentences*100*((words &gt;= 3 syll)/words)
+
+    Index         16       20       24       29       34       38       42
+    School year    5        6        7        8        9       10
+</pre>
+    <p
+     class=\"back\">
+       [ <a
+       href=\"#top\">back to top</a> ]
+    </p>
+    <a
+     id=\"Lix\"
+     name=\"Lix\">&#160;</a> 
+    <h3
+     class=\"scale\">
+      Lix formula
+    </h3>
+    <p
+     class=\"explanation\">
+       The Lix formula developed by Bjrnsson from Sweden is very
+      simple and employs a mapping table as well:
+    </p>
+<pre
+ class=\"formula\">
+    Lix = words/sentences+100*(words &gt;= 6 char)/words
+
+    Index         34       38       41       44       48       51        54       57
+    School year    5        6        7        8        9       10        11
+</pre>
+    <p
+     class=\"back\">
+       [ <a
+       href=\"#top\">back to top</a> ]
+    </p>
+    <a
+     id=\"SMOG-Grading\"
+     name=\"SMOG-Grading\">&#160;</a> 
+    <h3
+     class=\"scale\">
+      SMOG-Grading
+    </h3>
+    <p
+     class=\"explanation\">
+       The SMOG-Grading for English texts has been developed by
+      McLaughlin in 1969. Its result is a school grade.
+    </p>
+<pre
+ class=\"formula\">
+    SMOG-Grading = square root of ((words &gt;= 3 syll)*sentences*30) + 3
+</pre>
+    It has been adapted to German by Bamberger &amp; Vanecek in 1984,
+    who changed the constant +3 to -2. 
+    <p
+     class=\"back\">
+       [ <a
+       href=\"#top\">back to top</a> ]
+    </p>
+  </body>
+</html>
+

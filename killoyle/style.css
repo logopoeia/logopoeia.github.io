@@ -1,0 +1,25 @@
+body            { 
+                        color: #000000;
+                }
+.page-title	{
+			background-color: #FFFFFF;
+			color: #33099;
+			font-style: italic
+		}		
+
+.page-subtitle	{
+			font-size: 108%;
+			font-weight: bold;
+		}
+
+.review-excerpt	{
+		}
+
+.byline-sm	{
+                        text-align: center;
+			font-size: 93%
+		}
+.attrblock      {
+			font-weight: bold;
+                        margin-left: 65%;
+                }

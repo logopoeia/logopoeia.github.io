@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- $Id: panel.html,v 1.5 2003/01/09 05:06:48 smith Exp $ -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="generator"
+    content="HTML Tidy for Cygwin (vers 1st March 2002), see www.w3.org" />
+    <!--
+    
+    Copyright (C) 2002 by Logopoeia.
+
+    This is a modified version of the original HTML form for
+    driving the "BuzzPhraser" application, which is Copyright (C) 2000
+    by Doc Searls and Charles Roth.
+
+    Permission is hereby granted, free of charge, to any person obtaining 
+    a copy of this software and associated documentation files (the 
+    "Software"), to deal in the Software without restriction, including 
+    without limitation the rights to use, copy, modify, merge, publish, 
+    distribute, sublicense, and/or sell copies of the Software, and to 
+    permit persons to whom the Software is furnished to do so, subject 
+    to the following conditions:
+
+    The above copyright notice and this permission notice shall be 
+    included in all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+    IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY 
+    CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+    SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+    The original BuzzPhraser source code and documentation is
+    available at: http://www.buzzphraser.com/
+    -->
+
+    <script language="javascript" type="text/javascript"
+      src='./software_exec_in_a_box.js'></script>
+
+    <title>Software Executive in a Box (tm)</title>
+  </head>
+
+  <body bgcolor="#FFFFFF" text='black'>
+    <center>
+      &nbsp; 
+
+      <table border="2" bgcolor="#DDDDFF" summary=''>
+        <tr>
+          <td>
+            <form name="panel" action='' style="margin-bottom: 0pt">
+              <input type="hidden" name="dict" value="techno" />
+              <table border="0" summary=''>
+                <tr>
+                  <td colspan="2"><b>Control
+                      Panel</b><hr noshade='noshade' /></td>
+                </tr>
+
+                <tr>
+                  <td nowrap="nowrap" align="left"><b>Nouns:</b></td>
+
+                  <td><select name="noun">
+                      <option value="1" selected="selected">
+                      1
+                      </option>
+
+                      <option value="2">
+                      2
+                      </option>
+
+                      <option value="3">
+                      3
+                      </option>
+
+                      <option value="4">
+                      4
+                      </option>
+
+                      <option value="5">
+                      5
+                      </option>
+                  </select></td>
+                </tr>
+
+                <tr>
+                  <td nowrap="nowrap" align="right">+&nbsp;Suffixes:</td>
+
+                  <td nowrap="nowrap"><select name="suffix">
+                      <option value="0">
+                      0
+                      </option>
+
+                      <option selected="selected" value="1">
+                      1
+                      </option>
+
+                      <option value="2">
+                      2
+                      </option>
+
+                      <option value="3">
+                      3
+                      </option>
+
+                      <option value="4">
+                      4
+                      </option>
+
+                      <option value="5">
+                      5
+                      </option>
+                  </select></td>
+                </tr>
+
+                <tr>
+                  <td nowrap="nowrap" align="right">+&nbsp;Adnouns:</td>
+
+                  <td nowrap="nowrap"><select name="adnoun">
+                      <option value="0">
+                      0
+                      </option>
+
+                      <option value="1">
+                      1
+                      </option>
+
+                      <option selected="selected" value="2">
+                      2
+                      </option>
+
+                      <option value="3">
+                      3
+                      </option>
+
+                      <option value="4">
+                      4
+                      </option>
+
+                      <option value="5">
+                      5
+                      </option>
+                  </select></td>
+                </tr>
+
+                <tr>
+                  <td nowrap="nowrap" align="left"><b>Adjectives:</b></td>
+
+                  <td nowrap="nowrap"><select name="adject">
+                      <option value="0">
+                      0
+                      </option>
+
+                      <option selected="selected" value="1">
+                      1
+                      </option>
+
+                      <option value="2">
+                      2
+                      </option>
+
+                      <option value="3">
+                      3
+                      </option>
+
+                      <option value="4">
+                      4
+                      </option>
+
+                      <option value="5">
+                      5
+                      </option>
+                  </select></td>
+                </tr>
+
+                <tr>
+                  <td nowrap="nowrap" align="right">+&nbsp;Adverbs:</td>
+
+                  <td nowrap="nowrap"><select name="adverb">
+                      <option value="0">
+                      0
+                      </option>
+
+                      <option selected="selected" value="1">
+                      1
+                      </option>
+                  </select></td>
+                </tr>
+
+                <tr>
+                  <td nowrap="nowrap" align="right">+&nbsp;Prefixes:</td>
+
+                  <td nowrap="nowrap"><select name="prefix">
+                      <option selected="selected" value="0">
+                      0
+                      </option>
+
+                      <option value="1">
+                      1
+                      </option>
+
+                      <option value="2">
+                      2
+                      </option>
+
+                      <option value="3">
+                      3
+                      </option>
+
+                      <option value="4">
+                      4
+                      </option>
+
+                      <option value="5">
+                      5
+                      </option>
+                  </select></td>
+                </tr>
+
+                <tr>
+                  <td nowrap="nowrap" colspan="2" align="center"><input type="BUTTON"
+                    name="go" value="Activate!"
+                    style="width: 10em"
+                    onclick="phrases[phrases.length] = addphrase(); showthem();" />
+                  </td>
+                </tr>
+
+                <tr>
+                  <td nowrap="nowrap" align="center" colspan="2"><input type="BUTTON"
+                    value="Erase"
+                    style="width: 10em"
+                    onclick="if (phrases.length &gt; 0) phrases.length--; showthem();" />
+                  </td>
+                </tr>
+
+                <tr>
+                  <td nowrap="nowrap" align="center" colspan="2"><input type="BUTTON"
+                    value="Print"
+                    style="width: 10em"
+                    onclick="parent.bot.focus(); parent.bot.print(); return false;" /></td>
+                </tr>
+
+                <tr>
+                  <td nowrap="nowrap" align="center" colspan="2"><input type="BUTTON"
+                    value="Clear"
+                    style="width: 10em"
+                    onclick="phrases.length = 0; showthem();" /></td>
+                </tr>
+
+                <tr>
+                  <td nowrap="nowrap" align="center" colspan="2"><input type='reset'
+                    value="Reset"
+                    style="width: 10em"
+                    onclick="resetparms();" />
+                  </td>
+                </tr>
+              </table>
+              <p style="margin-top: 0pt; margin-bottom: 2pt; text-align: center">
+              <a style="font-size: 8pt" href="terms.html"
+                target="_blank">Terms and Conditions</a>
+              </p>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
+

@@ -1,0 +1,39 @@
+<table border="0" cellspacing="0">
+<tr>
+<td valign=bottom align=left nowrap>
+<small>From the Web site <cite>Killoyle, An Irish Farce</cite>
+at&nbsp;
+<code style="font-size:
+10pt;">http://www.logopoeia.com/killoyle/</code>
+<br>
+Maintained by <a
+href="mailto:webmaster@logopoeia.com">webmaster@logopoeia.com</a>
+</small>
+</td></tr></table>
+
+<table border="0" cellspacing="10">
+<tr>
+<td valign=top align=left>
+<a href="http://doras.tinet.ie"><img src="images/80x80_3award.gif" border=0 width=80 height=80 alt="Doras"></a>
+</td>
+<td valign=top align=left>
+<a href="http://swift.kerna.com"><img src="images/swift.gif" border=0 width=80 height=80 alt="Swift"></a>
+</td>
+<td valign=bottom align=left nowrap>
+<a href="http://authors.miningco.com/msub1.htm"><img src="images/miningco.gif" width="241" height="28" border=0 alt="Mining Co Poetry"></a><br>
+<font size="-1" face="helvetica, arial" color="#000066">Because Smart People Make the Best Guides.</small>
+</td>
+</tr>
+<tr>
+<td align=left valign=top nowrap>
+<strong><small>Awarded 3 Shamrocks<br>
+by the <a href="http://doras.tinet.ie">Doras Directory</a>.
+</small></strong>
+</td>
+<td align=left valign=top nowrap>
+<strong><small>Featured in <a href="http://swift.kerna.com">Swift</a>.</small></strong>
+</td>
+<td align=left valign=top nowrap>
+<strong><small>Listed at the <a href="http://authors.miningco.com/msub1.htm">Mining Company</a>.</small></strong>
+</td></tr></table>
+

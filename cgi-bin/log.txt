@@ -1,0 +1,30 @@
+|a192-207-128-200.dazel.com|192.207.128.200|http://www.io.com/~smith/|http://www.io.com/~smith/ed/index.html|Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)|51|35|18|1|3|100|6|91|
+|a192-207-128-200.dazel.com|192.207.128.200|http://www.io.com/~smith/|http://www.io.com/~smith/ed/index.html|Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)|29|36|18|1|3|100|6|91|
+|a192-207-128-200.dazel.com|192.207.128.200|http://www.io.com/~smith/|http://www.io.com/~smith/ed/index.html|Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)|38|36|18|1|3|100|6|91|
+|a192-207-128-200.dazel.com|192.207.128.200|http://www.io.com/~smith/|http://www.io.com/~smith/ed/index.html|Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)|47|36|18|1|3|100|6|91|
+|a192-207-128-200.dazel.com|192.207.128.200|http://www.io.com/~smith/|http://www.io.com/~smith/ed/index.html|Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)|53|36|18|1|3|100|6|91|
+|cache-rr03.proxy.aol.com|205.188.209.200|http://aolsearch.aol.com/cat.adp?id=56004|http://www.io.com/~smith/ed/index.html|Mozilla/4.0 (compatible; MSIE 5.0; AOL 5.0; Windows 98; DigExt)|37|37|18|1|3|100|6|91|
+|crawler.googlebot.com|209.185.253.175||http://www.io.com/~smith/ed/about.html|Googlebot/2.0 beta (googlebot(at)googlebot.com)|58|47|18|1|3|100|6|91|
+|cache-rm03.proxy.aol.com|152.163.189.131|http://aolsearch.aol.com/cat.adp?id=56004|http://www.io.com/~smith/ed/index.html|Mozilla/4.0 (compatible; MSIE 5.0; AOL 5.0; Windows 98; DigExt)|24|1|19|1|3|100|6|91|
+|rad114054.radius.teleline.es|195.235.114.54||http://www.io.com/~smith/novalis/index.html|ExtractorPro|43|1|19|1|3|100|6|91|
+|rad114054.radius.teleline.es|195.235.114.54||http://www.io.com/~smith/greenberg/index.html|ExtractorPro|43|1|19|1|3|100|6|91|
+|rad114054.radius.teleline.es|195.235.114.54||http://www.io.com/~smith/ed/index.html|ExtractorPro|45|1|19|1|3|100|6|91|
+|cr892823-a.rchrd1.on.wave.home.com|24.112.132.58||http://www.io.com/~smith/ed/index.html|Mozilla/4.7 (Macintosh; I; PPC)|58|4|19|1|3|100|6|91|
+|sdn-ar-001casfrmp205.dialsprint.net|158.252.208.207|http://search.yahoo.com/bin/search?p=emily+dickenson+pictures|http://www.io.com/~smith/ed/index.html|Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)|59|8|19|1|3|100|6|91|
+|sdn-ar-001casfrmp205.dialsprint.net|158.252.208.207|http://search.yahoo.com/bin/search?p=emily+dickenson+pictures|http://www.io.com/~smith/ed/index.html|Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)|20|9|19|1|3|100|6|91|
+|brk-78-207.tm.net.my|202.188.78.207|http://www.excite.com.au/search.gw?lk=msftau_au&c=web&lang=en&start=0&showSummary=true&s=emily+dickinson&perPage=10&next=next&MSNURL=http://www.msn.com.my&gotoMSN=goto_Malaysia.gif|http://www.io.com/~smith/ed/index.html|Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)|9|17|19|1|3|100|6|91|
+|33-136-brock.9bit.qc.ca|207.253.33.136|http://www.2meta.com/random/|http://www.io.com/~smith/ed/index.html|Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)|42|45|19|1|3|100|6|91|
+|cr892823-a.rchrd1.on.wave.home.com|24.112.132.58||http://www.io.com/~smith/ed/index.html|Mozilla/4.7 (Macintosh; I; PPC)|23|46|19|1|3|100|6|91|
+|cr892823-a.rchrd1.on.wave.home.com|24.112.132.58|http://www.io.com/~smith/ed/index.html|http://www.io.com/~smith/ed/about.html|Mozilla/4.7 (Macintosh; I; PPC)|32|46|19|1|3|100|6|91|
+|33-136-brock.9bit.qc.ca|207.253.33.136|http://www.2meta.com/random/|http://www.io.com/~smith/ed/index.html|Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)|46|51|19|1|3|100|6|91|
+|33-136-brock.9bit.qc.ca|207.253.33.136|http://www.2meta.com/random/|http://www.io.com/~smith/ed/index.html|Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)|39|1|20|1|3|100|6|91|
+|203.197.183.38|203.197.183.38|http://search.yahoo.com/bin/search?p=epigrams|http://www.io.com/~smith/ed/index.html|Mozilla/4.61 [en] (Win98; I)|23|2|20|1|3|100|6|91|
+|203.197.183.38|203.197.183.38|http://search.yahoo.com/bin/search?p=epigrams|http://www.io.com/~smith/ed/index.html|Mozilla/4.61 [en] (Win98; I)|45|2|20|1|3|100|6|91|
+|203.197.183.38|203.197.183.38|http://search.yahoo.com/bin/search?p=epigrams|http://www.io.com/~smith/ed/index.html|Mozilla/4.61 [en] (Win98; I)|6|3|20|1|3|100|6|91|
+|203.197.183.38|203.197.183.38|http://search.yahoo.com/bin/search?p=epigrams|http://www.io.com/~smith/ed/index.html|Mozilla/4.61 [en] (Win98; I)|15|3|20|1|3|100|6|91|
+|203.197.183.38|203.197.183.38|http://search.yahoo.com/bin/search?p=epigrams|http://www.io.com/~smith/ed/index.html|Mozilla/4.61 [en] (Win98; I)|24|3|20|1|3|100|6|91|
+|203.197.183.38|203.197.183.38|http://search.yahoo.com/bin/search?p=epigrams|http://www.io.com/~smith/ed/index.html|Mozilla/4.61 [en] (Win98; I)|32|3|20|1|3|100|6|91|
+|203.197.183.38|203.197.183.38|http://search.yahoo.com/bin/search?p=epigrams|http://www.io.com/~smith/ed/index.html|Mozilla/4.61 [en] (Win98; I)|39|3|20|1|3|100|6|91|
+|203.197.183.38|203.197.183.38|http://search.yahoo.com/bin/search?p=epigrams|http://www.io.com/~smith/ed/index.html|Mozilla/4.61 [en] (Win98; I)|48|3|20|1|3|100|6|91|
+|a192-207-128-200.dazel.com|192.207.128.200||http://www.logopoeia.com/ed/index.html|Mozilla/3.01 (compatible;)|56|24|20|1|3|100|6|91|
+|aus-as4-092.io.com|208.2.105.92||http://www.logopoeia.com/try.html|Mozilla/4.5 [en] (Win98; I)|35|44|20|1|3|100|6|91|

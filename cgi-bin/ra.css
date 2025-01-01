@@ -1,0 +1,29 @@
+body {
+	font-family: sans-serif;
+}
+
+td, th {
+	font-family: sans-serif;
+}
+
+h2.section {
+		margin-top: 36pt;
+		text-align: center;
+		color: #33cc00;
+}
+
+th {
+	text-align: left;
+}
+
+p.explanation {
+		font-family: serif;
+}
+
+pre {
+		font-family: monospace;
+}
+
+ul, li {
+		font-family: serif;
+}

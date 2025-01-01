@@ -1,0 +1,175 @@
+div.center {
+		text-align: center;
+}
+
+table.center {
+		text-align: center;
+}
+
+h1.default {
+		color: #000099;
+}
+
+h2.page-title { 
+}
+
+h2.poem-title {
+		color: #000099;
+		margin-left: 5%;
+		text-align: left;
+		margin-top: 24pt;
+}
+
+h4.page-subtitle {
+			font-weight: normal;
+}
+
+div.poem {
+		margin-left: 10%;
+		white-space: nowrap;
+}
+
+p.stanza {
+		text-align: left;
+		white-space: nowrap;
+}
+
+p.poem-nav {
+		text-align: left;
+		margin-left: 20%;
+		margin-bottom: 300pt;
+}
+
+p.center {
+		text-align: center;
+}
+
+h2.prose-title { 
+		color: #000099;
+		text-align: center
+}
+
+p.downloadPDF {
+		margin-bottom: 300pt;
+}
+
+.indent-0 {
+		text-indent:   0em;
+}
+.indent-1 { 
+		text-indent:  .7em;
+}
+.indent-2 {
+		text-indent: 1.4em;
+}
+.indent-3 {
+		text-indent: 2.1em;
+}
+.indent-4 {
+		text-indent: 2.8em;
+}
+.indent-5 {
+		text-indent: 3.5em; 
+}
+.indent-6 {
+		text-indent: 4.2em;
+}
+.indent-7 {
+		text-indent: 4.9em; 
+}
+.indent-8 {
+		text-indent: 5.6em;	
+}
+.indent-9 {
+		text-indent: 6.3em;
+}
+.indent-10 {
+		text-indent: 7.0em;
+}
+.indent-11 {
+		text-indent: 7.7em; 
+}
+.indent-12 {
+		text-indent: 8.4em; 
+}
+.indent-14 {
+		text-indent: 9.8em; 
+}
+.indent-15 {
+		text-indent: 10.5em;
+}
+.indent-16 {
+		text-indent: 11.2em;
+}
+.indent-17
+{
+		text-indent: 14.4em;
+}
+.hanging { 
+		text-indent: -.9em;
+		margin-left: .9em 
+}
+
+.spacer	{ 
+		margin-top: 40em 
+}
+
+p.quote {
+		margin-bottom: .3em 
+}
+.left-block {
+		text-align: left; 
+		margin-right: 10%;
+		margin-bottom: 1.5em
+}
+.right-block { 
+		text-align: left; 
+		margin-left: 10%; 
+		margin-bottom: 1.5em 
+}
+.byline { 
+		text-align: right;
+		margin-right: 2.5em 
+}
+p.null {
+		margin-top: 0em;
+		margin-bottom: 0em 
+}
+
+.normal { 
+		margin-left: 1em;
+		margin-bottom: .60em 
+}
+.blkquote { 
+		margin-left: 3em;
+		margin-right: 3em;
+		margin-top: .30em 
+}
+.named-anchor { 
+		line-height: 60%
+}
+
+.cite-link {
+		text-decoration: underline;
+		font-family: sans-serif;
+}
+
+cite.underline { 
+		text-decoration: underline;
+		font-style: normal 
+}
+
+em.underline { 
+		text-decoration: underline; 
+		font-style: normal 
+}
+
+span.mining-co {
+		color: #000066; 
+		font-family: sans-serif;
+		font-size: 80%
+}
+
+small.sans-serif {
+		  font-family: sans-serif;
+}

@@ -1,0 +1,67 @@
+
+Tidy (vers 13th January 2000) Parsing "chapter1.html"
+
+"chapter1.html" appears to be HTML proprietary
+no warnings or errors were found
+
+You are recommended to use CSS to specify the font and
+properties such as its size and color. This will reduce
+the size of HTML files and make them easier maintain
+compared with using <FONT> elements.
+
+
+Tidy (vers 13th January 2000) Parsing "chapter15.html"
+line 47 column 1 - Warning: replacing element <p> by <br>
+line 53 column 1784 - Warning: trimming empty <sup>
+
+"chapter15.html" appears to be HTML proprietary
+2 warnings/errors were found!
+
+You are recommended to use CSS to specify the font and
+properties such as its size and color. This will reduce
+the size of HTML files and make them easier maintain
+compared with using <FONT> elements.
+
+
+Tidy (vers 13th January 2000) Parsing "index.html"
+
+"index.html" appears to be HTML proprietary
+no warnings or errors were found
+
+
+Tidy (vers 13th January 2000) Parsing "links.html"
+
+"links.html" appears to be HTML proprietary
+no warnings or errors were found
+
+You are recommended to use CSS to specify the font and
+properties such as its size and color. This will reduce
+the size of HTML files and make them easier maintain
+compared with using <FONT> elements.
+
+
+Tidy (vers 13th January 2000) Parsing "two-strokes.html"
+
+"two-strokes.html" appears to be HTML proprietary
+no warnings or errors were found
+
+You are recommended to use CSS to specify the font and
+properties such as its size and color. This will reduce
+the size of HTML files and make them easier maintain
+compared with using <FONT> elements.
+
+
+Tidy (vers 13th January 2000) Parsing "wolfetone.html"
+
+"wolfetone.html" appears to be HTML proprietary
+no warnings or errors were found
+
+You are recommended to use CSS to specify the font and
+properties such as its size and color. This will reduce
+the size of HTML files and make them easier maintain
+compared with using <FONT> elements.
+
+HTML & CSS specifications are available from http://www.w3.org/
+To learn more about Tidy see http://www.w3.org/People/Raggett/tidy/
+Please send bug reports to Dave Raggett care of <html-tidy@w3.org>
+Lobby your company to join W3C, see http://www.w3.org/Consortium

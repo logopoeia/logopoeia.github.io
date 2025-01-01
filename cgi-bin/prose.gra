@@ -1,0 +1,99 @@
+AdjUnit/ #PushPlur #ForceSing Noun #PopPlur 
+AdjUnit/ #PushPlur Substance #PopPlur 
+AdjUnit/ Adjective 
+AdjUnit/ Adjective 
+AdjUnit/ InPresPart 
+AdjUnit/ Possessive 
+AdvbPhrase/ !as #PushPlur Adverb !as Noun #PopPlur 
+AdvbPhrase/ Adverb 
+AdvbPhrase/ PrepPhrase 
+CompPhrase/ #PushPlur !as Adjective !as Noun #PopPlur 
+CompPhrase/ #PushPlur !more Adjective !than Determiner Noun 
+    #PopPlur 
+CompPhrase/ #PushPlur Adjective !as Noun #PopPlur 
+DepClause/ SubordConj !to IntransInf #ForceSing #ForceThrd 
+    VerbPhrase 
+DepClause/ SubordConj NounPhrase VerbPhrase 
+DepClause/ SubordConj NounPhrase VerbPhrase 
+DepClause/ SubordConj SubjPron VerbPhrase 
+DepClause/ SubordConj SubjPron VerbPhrase 
+IndClause/ !to IntransInf #ForceSing #ForceThrd VerbPhrase 
+IndClause/ NounPhrase @( NounPhrase @) VerbPhrase 
+IndClause/ NounPhrase VerbPhrase 
+IndClause/ NounPhrase VerbPhrase 
+IndClause/ SubjPron VerbPhrase 
+IndClause/ SubjPron VerbPhrase 
+IntrVbUnit/ Adverb IntrVerb
+IntrVbUnit/ IntrVerb
+IntrVbUnit/ AuxInf !to IntransInf 
+IntrVbUnit/ AuxVerb IntransInf 
+IntrVbUnit/ Copula InPresPart 
+IntrVbUnit/ IntrVerb 
+IntrVbUnit/ IntrVerb 
+IntrVbUnit/ ToHave InPastPart 
+NounPhrase/ !so #ForceSing Adjective IndefArt Noun 
+NounPhrase/ !the Noun !of #PushPlur Substance #PopPlur 
+NounPhrase/ #ForcePlur Noun 
+NounPhrase/ #ForcePlur Noun 
+NounPhrase/ #ForcePlur Noun 
+NounPhrase/ #ForcePlur Noun 
+NounPhrase/ Determiner AdjUnit Noun 
+NounPhrase/ Determiner Noun 
+NounPhrase/ Determiner Noun 
+NounPhrase/ NounPhrase PrepPhrase 
+NounPhrase/ PossPron Noun 
+NounPhrase/ Substance 
+ObjPhrase/ NounPhrase 
+ObjPhrase/ ObjPron 
+PrepPhrase/ !between #PushPlur Determiner Noun #PopPlur !and 
+    #PushPlur Determiner Noun #PopPlur 
+PrepPhrase/ Prepos #PushPlur NounPhrase #PopPlur 
+Question/ #ForceThrd ToHave NounPhrase InPastPart 
+Question/ #ForceThrd ToHave NounPhrase TrPastPart NounPhrase 
+Question/ AuxVerb NounPhrase IntransInf 
+Question/ AuxVerb NounPhrase TransInf NounPhrase 
+Question/ IntObjPron #ForceThrd Copula NounPhrase TrPresPart 
+Question/ IntObjPron #ForceThrd ToHave NounPhrase TrPastPart 
+Question/ IntObjPron AuxVerb NounPhrase TransInf 
+Question/ IntObjPron Copula SubjPron TrPresPart 
+Question/ IntObjPron ToHave SubjPron TrPastPart 
+Question/ IntPron #ForceThrd Copula NounPhrase InPresPart 
+Question/ IntPron #ForceThrd ToHave NounPhrase InPastPart 
+Question/ IntPron AuxVerb NounPhrase IntransInf 
+Question/ IntPron Copula SubjPron InPresPart 
+Question/ IntPron ToHave SubjPron InPastPart 
+Question/ ToHave SubjPron InPastPart 
+Question/ ToHave SubjPron TrPastPart NounPhrase 
+Sentence/ DepClause @, IndClause @, !and IndClause @. 
+Sentence/ DepClause @, IndClause @. 
+Sentence/ DepClause @, IndClause @. 
+Sentence/ DepClause @, Question @? 
+Sentence/ IndClause @, !and IndClause @.
+Sentence/ IndClause @, !but IndClause @.
+Sentence/ IndClause @.
+Sentence/ IndClause @.
+Sentence/ IndClause @.
+Sentence/ IndClause @.
+Sentence/ IndClause @.
+Sentence/ IndClause @.
+Sentence/ IndClause @.
+Sentence/ IndClause @; !and Sentence
+Sentence/ IndClause @; Sentence
+Sentence/ NounPhrase @- Question @?
+Sentence/ NounPhrase @: NounPhrase @.
+Sentence/ Question @?
+Sentence/ Question @?
+Sentence/ Question @?
+TranVbUnit/ Adverb TransVerb
+TranVbUnit/ TransVerb
+TranVbUnit/ AuxInf !to TransInf 
+TranVbUnit/ AuxVerb TransInf
+TranVbUnit/ TransVerb
+TranVbUnit/ Copula TrPresPart
+TranVbUnit/ TransVerb
+TranVbUnit/ AuxVerb TransInf
+TranVbUnit/ ToHave TrPastPart 
+TranVbUnit/ TransVerb 
+VerbPhrase/ Copula NounPhrase 
+VerbPhrase/ IntrVbUnit 
+VerbPhrase/ TranVbUnit ObjPhrase 

@@ -1,0 +1,12 @@
+<p align=left>
+<small>
+The text of <cite>Hymns to the Night</cite> is the editor's freely revised and amended version of George MacDonald's translation in the following public-domain work:
+</small>
+<blockquote>
+<small>
+<cite>Rampolli: Growths from a Long-Planted Root: Being Translations, New and Old, Chiefly from the German.</cite><br>
+London; New York: Longman's, Green, 1897. Printed by Ballentyne, Hanson & Co.<br>
+PR 4967 R34 1897 from the Humanities Research Center at the University of Texas, Austin.
+</small>
+</blockquote>
+</p>

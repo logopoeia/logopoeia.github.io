@@ -1,0 +1,171 @@
+;------------------------
+Determiner
+these 1 1 FTF
+this 1 0 TFF
+;------------------------
+Noun
+light 1 1 TFT
+hand 1 1 TFT
+;------------------------
+SubjPron
+many 2 1 FTF
+neither 2 1 TFF
+both 1 1 FTF
+that 1 1 TFF
+some 1 1 FTF
+those 1 1 FTF
+these 1 1 FTF
+this 1 0 TFF
+it 1 0 TFF
+;------------------------
+ObjPron
+him 1 0 TFF
+her 1 0 TFF
+this 1 0 TFF
+it 1 0 TFF
+;------------------------
+PossPron
+her 1 0 TTT
+his 1 0 TTT
+;------------------------
+RelPron
+whose 1 1 FFF
+who 1 0 FFF
+who 1 0 FFF
+which 1 0 FFF
+that 1 0 FFF
+;------------------------
+IntPron
+why 1 1 TTT
+how 1 1 FFF
+where 1 1 FFF
+when 1 1 FFF
+;------------------------
+IntObjPron
+whom 1 1 TTT
+what 1 1 TTT
+;------------------------
+Adjective
+whole 1 1 TFF
+different 3 1 TTF
+certain 2 1 TFF
+;------------------------
+Adverb
+better 2 1 TTT
+faster 2 1 TTT
+easily 3 1 FFF
+ahead 2 2 FFF
+;------------------------
+Prepos
+out_of 2 1 TTT
+despite 2 2 FFF
+throughout 2 2 FFF
+below 2 2 FFF
+inside 2 0 FFF
+beyond 2 2 FFF
+except 2 2 FFF
+near 1 1 FFF
+behind 2 2 FFF
+across 2 2 FFF
+above 2 2 FFF
+along 2 2 FFF
+within 2 2 FFF
+among 2 2 FFF
+toward 2 2 FFF
+upon 2 2 FFF
+around 2 2 FFF
+without 2 2 FFF
+during 2 1 FFF
+against 2 2 FFF
+under 2 1 FFF
+through 1 1 FFF
+after 2 1 FFF
+over 2 1 FFF
+like 1 0 FFF
+into 2 1 FFF
+about 2 2 FFF
+up 1 1 FFF
+from 1 0 FFF
+by 1 0 FFF
+at 1 0 FFF
+on 1 0 FFF
+with 1 0 FFF
+for 1 0 FFF
+in 1 0 FFF
+to 1 0 FFF
+of 1 0 FFF
+;------------------------
+Conjunc
+nor 1 0 FFF
+whether 2 1 FFF
+though 1 1 FFF
+where 1 1 FFF
+before 2 2 FFF
+than 1 0 FFF
+so 1 1 FFF
+if 1 0 FFF
+when 1 0 FFF
+or 1 0 FFF
+but 1 0 FFF
+as 1 0 FFF
+and 1 0 FFF
+;------------------------
+SubordConj
+unless 2 2 FFF
+although 2 2 FFF
+though 1 1 FFF
+until 2 2 FFF
+since 1 1 FFF
+while 1 1 FFF
+because 2 2 FFF
+where 1 1 FFF
+before 2 2 FFF
+after 2 1 FFF
+if 1 0 FFF
+when 1 0 FFF
+;------------------------
+TransInf
+make 1 1 FFF
+carry 2 1 FFT
+;------------------------
+IntransInf
+go 1 1 FTF
+come 1 1 FTF
+work 1 1 FTT
+;------------------------
+AuxVerb
+might 1 1 TTF
+should 1 0 TTF
+must 1 1 TTF
+do 1 1 FTF
+may 1 0 TTF
+could 1 0 TTF
+can 1 0 TTF
+will 1 0 TTF
+would 1 0 TTF
+;------------------------
+AuxInf
+stop 1 1 FTT
+start 1 1 FTT
+want 1 1 FTT
+need 1 1 FTT
+go 1 1 FTF
+come 1 1 FTF
+;------------------------
+Substance
+distance 2 1 TFT
+mass 1 1 TFT
+;------------------------
+IrregPart
+make 1 1 FFF
+makes 1 1 FFF
+made 1 1 FFF
+made 1 1 FFF
+go 1 1 FFF
+goes 1 1 FFF
+went 1 1 FFF
+gone 1 1 FFF
+come 1 1 FFF
+comes 1 1 FFF
+came 1 1 FFF
+come 1 1 FFF
